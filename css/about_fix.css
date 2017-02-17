@@ -1,0 +1,38 @@
+#nav{
+    background: #252525;
+}
+#title {
+    width: 100%;
+    background: #252525;
+    text-align: center;
+    height: 35rem;
+
+}
+
+/* 这里定位改成relative更好*/
+
+#title > p {
+    color: white;
+    font-size: 350%;
+    font-weight: bold;
+    padding-top: 20rem;
+
+}
+
+#title > p:after {
+    content: "";
+    display: block;
+    width: 8%;
+    height: 1px;
+    background-color: #ffffff;
+    margin: auto;
+}
+
+#content{
+    border: 2px solid red;
+}
+#content_container{
+    margin: 7rem 5rem;
+    height: 10rem;
+    background: blanchedalmond;
+}
